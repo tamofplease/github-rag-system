@@ -1,0 +1,29 @@
+{
+  "name": "@github-rag-system/etl",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "GitHub repository ETL processing for RAG system",
+  "dependencies": {
+    "@github-rag-system/common": "workspace:*",
+    "@github-rag-system/db": "workspace:*",
+    "simple-git": "^3.22.0",
+    "tree-sitter": "^0.20.6",
+    "tree-sitter-typescript": "^0.20.3",
+    "tree-sitter-javascript": "^0.20.1",
+    "tree-sitter-python": "^0.20.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.8"
+  }
+}

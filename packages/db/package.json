@@ -1,0 +1,21 @@
+{
+  "name": "@github-rag-system/db",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Vector database integration for GitHub RAG system",
+  "dependencies": {
+    "@github-rag-system/common": "workspace:*",
+    "@opensearch-project/opensearch": "^2.4.0",
+    "openai": "^4.96.0"
+  }
+}

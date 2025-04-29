@@ -1,0 +1,31 @@
+{
+  "name": "github-rag-system",
+  "version": "1.0.0",
+  "description": "GitHub Repository ETL and RAG System",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "keywords": [
+    "github",
+    "rag",
+    "etl",
+    "vector-db",
+    "opensearch"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "eslint": "^9.25.1",
+    "prettier": "^3.5.3",
+    "turbo": "^1.10.0",
+    "typescript": "^5.8.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

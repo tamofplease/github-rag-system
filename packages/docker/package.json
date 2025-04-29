@@ -1,0 +1,15 @@
+{
+  "name": "@github-rag-system/docker",
+  "version": "1.0.0",
+  "description": "Docker configurations for OpenSearch hosting",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up",
+    "stop": "docker-compose down",
+    "start:detached": "docker-compose up -d",
+    "logs": "docker-compose logs -f"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
